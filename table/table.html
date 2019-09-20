@@ -2,9 +2,6 @@
 <html>
 <head>
 <title>Create an HTML Table</title>
-
-</head>
-<body>
 <style>table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -13,7 +10,14 @@ th, td {
   padding: 5px;
 }
 
+thead {color:lightslategray;}
+tbody {color:lightblue;}
+tfoot {color:lightpink;}
+
 </style>
+</head>
+<body>
+
 <table style="width:100%">
  <tr>
     <th>Firstname</th>
@@ -58,22 +62,11 @@ th, td {
     <td>414-739-2309</td>
   </tr>
 </table>
+<p></p>
 
 
-<style>
-thead {color:lightslategray;}
-tbody {color:lightblue;}
-tfoot {color:lightpink;}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;
-}
-</style>
 <table>
+<caption>My Monthly Savings</caption>
 <thead>
     <tr>
     <th>Monthly</th>
