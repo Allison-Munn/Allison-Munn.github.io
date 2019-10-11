@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+table,td,th{
+    border: 5px solid white;
+}
+caption{
+    background-color:honeydew;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding:5px;
+    height:30px;
+    width:50%;
+    background-color:thistle;
+}
+td{
+    text-align:right;
+    background-color:lavenderblush;
+}
+tfoot td {
+    background-color:powderblue;
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>Food List</caption>
+    <tr>
+        <th>Fruits</th>
+        <th>Vegetables</th>
+    </tr>
+    <tr>
+        <td>Apples</td>
+        <td>Broccoli</td>
+    </tr>
+    <tr>
+        <td>Bananas</td>
+        <td>Carrots</td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td>My favorite fruits</td>
+        <td>My favorite vegetables</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
