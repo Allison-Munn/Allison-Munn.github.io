@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+#color{
+    position:static;
+    border:3px solid black;
+}
+#cats{
+    position: relative;
+    left: 70px;
+    border:3px solid black;
+}
+#dog{
+    position:absolute;
+    bottom: -150px;
+    right:0;
+    width:200px;
+    height:100px;
+    border: 3px solid black;
+}
+#same{
+    position:static;
+    bottom:0px;
+    left:300px;
+    z-index:-1;
+    border:3px solid black;
+}
+#same1{
+    position:relative;
+    bottom:-30px;
+    right: 250px;
+    z-index:-2;
+    border:3px solid black;
+}
+#same2{
+    position:relative;
+    bottom:240px;
+    right:-130px;
+    z-index:-3;
+    border: 3px solid black;
+}
+img.cursor{
+    cursor:crosshair;
+}
+body{
+    cursor: grab;
+}
+</style>
+</head>
+<body>
+<img src="Webp.net-resizeimage.png" id="color" class="cursor">
+<img src="better cats.jpg" id="cats" class="cursor">
+<img src="dogs photo.jpg.jpg" id="dog" class="cursor">
+<img src="blue.jpg" id="same" class="cursor">
+<img src="thebestred.png" id="same1" class="cursor">
+<img src="strongyellow.png" id="same2" class="cursor">
+</body>
+</html>
