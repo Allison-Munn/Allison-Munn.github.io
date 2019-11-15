@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Image Sprites</title>
+<style>
+body{
+    background-color:gray;
+    width:100%;
+    color:white;
+    font-family:helvetica;
+}
+p{
+    position:absolute;
+    top: 50px;
+}
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 50px;
+  background: url('colorfulsprites.png') 0 0;
+}
+
+#prev {
+  left: 50px;
+  width: 50px;
+  background: url('colorfulsprites.png') -51px 0;
+}
+
+#next {
+  left: 100px;
+  width: 50px;
+  background: url('colorfulsprites.png') -102px 0;
+}
+
+#later {
+    left:150px;
+    width:50px;
+    background: url('colorfulsprites.png') -153.8px 0;
+}
+#home a:hover {
+  background: url('colorfulsprites.png') 1px -51px;
+}
+
+#prev a:hover {
+  background: url('colorfulsprites.png') -51px -51px;
+}
+
+#next a:hover {
+  background: url('colorfulsprites.png') -102px -51px;
+}
+
+#later a:hover{
+    background: url('colorfulsprites.png') -153.8px -51px;;
+}
+</style>
+</head>
+<body>
+<ul id="navlist">
+  <li id="home"><a href="https://www.google.com/" alt="Link to Google"></a></li>
+
+  <li id="prev"><a href="https://www.youtube.com/" alt="Link to Youtube"></a></li>
+ 
+ <li id="next"><a href="https://www.netflix.com/" alt="Link to Netflix"></a></li>
+
+  <li id="later"><a href="https://www.biblegateway.com/" alt="Link to Biblegateway"></a></li>
+
+  
+  <p>help</p>
+</ul>
+</body>
+</html>
