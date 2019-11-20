@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+.sqaure{
+    height:400px;
+    width:400px;
+}
+#two{
+    background-color:lightblue;
+    background-image: linear-gradient(lightblue,lightpink);
+}
+#three{
+    background-color:red;
+    background-image: linear-gradient(to left,red,yellow,blue);
+}
+#four{
+    background-color:snow;
+    background-image: linear-gradient(to bottom right,snow,darkgray,gray,black);
+}
+#five{
+    background-color:ghostwhite;
+    background-image: linear-gradient(ghostwhite,snow,lightpink,lightblue,lavender)
+}
+#break{
+    background-color:ghostwhite;
+    background-image: repeating-linear-gradient(ghostwhite 75%,black);
+}
+#smoothbreak{
+    background-color:lightpink;
+    background-image: repeating-linear-gradient(lightblue,lavender,lightblue 15%);
+}
+#radial{
+    background-image:radial-gradient(ghostwhite,lightblue,lavender,lightpink);
+}
+</style>
+</head>
+<body>
+
+    <div class="sqaure" id="two"></div>
+    <p></p>
+    <div class="sqaure" id="three"></div>
+    <p></p>
+    <div class="sqaure" id="four"></div>
+    <p></p>
+    <div class="sqaure" id="five"></div>
+    <p></p>
+    <div class="sqaure" id="break"></div>
+    <p></p>
+    <div class="sqaure" id="smoothbreak"></div>
+    <p></p> 
+    <div class="sqaure" id="radial"></div>
+
+</body>
+</html>
